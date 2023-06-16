@@ -7,6 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * This program models a gym membership system.
+ *
+ * @author Adrijan Vranjkovic
+ * @version 1.0
+ * @since 2023-06-15
+ */
+
 public class GymMembershipSystem {
     // List to store the gym members
     private static List<Member> members = new ArrayList<>();
