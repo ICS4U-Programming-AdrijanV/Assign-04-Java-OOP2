@@ -1,25 +1,21 @@
 public class Member {
-    // Class variables
+    // Private member variables
     private String name;
     private int memberId;
 
-    // Constructor
+    // Constructor for creating a new Member object
     public Member(String name, int memberId) {
-        // Assign the given name to the name variable
         this.name = name;
-        // Assign the given memberId to the memberId variable
         this.memberId = memberId;
     }
 
-    // Method to get the name of the member
+    // Getter method for retrieving the member's name
     public String getName() {
-        // Return the name of the member
         return name;
     }
 
-    // Method to get the ID of the member
+    // Getter method for retrieving the member's ID
     public int getMemberId() {
-        // Return the ID of the member
         return memberId;
     }
 }
